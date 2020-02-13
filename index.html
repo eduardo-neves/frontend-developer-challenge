@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linx Frontend Developer Challenge</title>
     <link href="src/stylesheets/index.css" rel="stylesheet" />
+    <script src="/src/scripts/scripts.js"></script>
   </head>
   <body>
     <div id="root">
@@ -12,17 +13,20 @@
         <h1>Linx Frontend Challenge</h1>
         <h3>uma seleção de produtos</h3>
         <h1>especial para você</h1>
-        <p>Todos os produtos desta lista foram selecionados a partir de sua navegação. Aproveite!</p>
+        <h5>Todos os produtos desta lista foram selecionados a partir de sua navegação. Aproveite!</h5>
           <div id="menu">
 
           </div>
       </div>
       <!-- <div>
           <button id="fetchProductDataBtn">Fetch Product Data</button>
-          <script src="/src/scripts/scripts.js"></script>
-      </div>
-      <div id="response"></div> -->
+      </div> -->
 
+      <div id="response">
+        <script>
+          generateCard();
+        </script>
+      </div>
       <div id="newsletter">
         <form>
           Nome do seu amigo:
