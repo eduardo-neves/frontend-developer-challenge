@@ -1,0 +1,18 @@
+#root {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#header{
+    text-align: center;
+}
+
+#newsletter{
+    
+}
+#footer {
+    background: #707070 0% 0% no-repeat padding-box;
+    text-align: center;
+}
