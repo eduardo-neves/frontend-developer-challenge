@@ -6,8 +6,8 @@ function getData(){
 }
 
 function generateCard(){
-    let output = `
-        <div id="card">
+    var template = `
+        <div id="productCard">
             
             <a href="https://placeholder.com"><img src="https://via.placeholder.com/200x150"></a>
             <h2>Nome do produto</h2>
@@ -18,6 +18,9 @@ function generateCard(){
             <input id="BtnComprar" value="Comprar" type="button" onclick="">
         </div>
         `;
+        for(var i = 0; i<= 7; i++){
+           var output = output + template;
+          }
 
         document.getElementById("response").innerHTML = output;
 }

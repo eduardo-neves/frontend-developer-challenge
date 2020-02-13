@@ -2,21 +2,33 @@
     font-family: 'Helvetica', 'Arial', sans-serif;
     top: 0px;
     left: 0px;
+    width: auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+body{
+    align-content: center;
+}
+@media only screen and (max-width: 470px) {
+    .root {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
 #header {
     text-align: center;
 }
 
-#card {
-    width: 201px;
-    height: 350px;
-}
 
 #response {
-    display: flex;
-    align-items: center;
+    max-width: 900px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#productCard {
+    width: 200px;
+    height: 350px;
+    float: left;
 }
 
 #BtnComprar {
@@ -29,6 +41,7 @@
 
 #newsletter {
     text-align: center;
+    position: relative;
 }
 
 #footer {
