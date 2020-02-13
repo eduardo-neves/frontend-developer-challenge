@@ -7,6 +7,6 @@ Basic file and directory structure created.
 
 Second commit 13/02/2020:
 Wireframe for template built;
-Experemental generateCard funcion added;
+Experimental generateCard funcion added;
 Early CSS rules implemented.
 
