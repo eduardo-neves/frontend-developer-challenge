@@ -15,17 +15,24 @@
           <h1>especial para você</h1>
           <h5>Todos os produtos desta lista foram selecionados a partir de sua navegação. Aproveite!</h5>
             <div id="menu">
-
+              <input id="BtnAction" value="Conheça a Linx" type="button" onclick="generateCards()">
+              <input id="BtnAction" value="Ajude o algorítimo" type="button" onclick="generateCards()">
+              <input id="BtnAction" value="Seus produtos" type="button" onclick="generateCards()">
+              <input id="BtnAction" value="Compartilhe" type="button" onclick="generateCards()">
             </div>
         </div>
         <!-- <div>
             <button id="fetchProductDataBtn">Fetch Product Data</button>
         </div> -->
-
-        <div id="response">
-          <script>
-            generateCard();
-          </script>
+        <div id="products">
+          <h4>Sua seleção especial</h4>
+          <div id="response">
+            <script>
+              generateCards();
+              getData();
+            </script>
+          </div>
+          <input id="BtnAction" value="Ainda mais produtos aqui!" type="button" onclick="generateCards()">
         </div>
         <div id="newsletter">
           <form>
@@ -33,13 +40,13 @@
             <input type="nome" required />
             E-mail:
             <input type="email" required />
-            <input type="submit" value="Enviar agora">
+            <input id="BtnAction" type="submit" value="Enviar agora">
           </form>
         </div>
         <div id ="footer">
-          <h4>Testando suas habilidades em HTML, CSS e JS.</h4>
-          <h4>Linx Impulse</h4>
-          <h4>2020</h4>
+          <p>Testando suas habilidades em HTML, CSS e JS.</p>
+          <p>Linx Impulse</p>
+          <p>2020</p>
         </div>
   </div>
   </body>

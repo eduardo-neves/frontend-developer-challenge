@@ -5,6 +5,7 @@
     width: auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    color: #888888;
 }
 body{
     align-content: center;
@@ -16,19 +17,28 @@ body{
 }
 #header {
     text-align: center;
+    color: #FFFFFF;
+    background-color: #707070;
+    padding: 50px;
 }
 
+#products{
 
+}
 #response {
-    max-width: 900px;
-    height: fit-content;
+    max-width: 1165px;
     margin: 0 auto;
+    
 }
 
 #productCard {
-    width: 200px;
+    width: 201px;
     height: 350px;
     float: left;
+    margin: 41px;
+}
+#productImage{
+    border:1px solid #707070;
 }
 
 #BtnComprar {
@@ -37,15 +47,40 @@ body{
     border: 1px solid #707070;
     border-radius: 4px;
     opacity: 1;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    color: #888888;
+}
+
+#BtnAction {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    width: 20%;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 50px;
+    color: #707070;
 }
 
 #newsletter {
+    width: 100%;
     text-align: center;
     position: relative;
 }
 
 #footer {
+    width: 100%;
     background: #707070 0% 0% no-repeat padding-box;
     text-align: center;
     color: #FFFFFF; 
+}
+p{
+    font-size: 12px;
+}
+h4{
+    text-align: center;
 }
