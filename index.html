@@ -9,48 +9,45 @@
   </head>
   <body>
     <div id="root">
-        <div id="header">
+        <div id="header"> <!-- Header of the page. Contains all the text and menu buttons located at the top of it -->
           <!-- <h1>Linx Frontend Challenge</h1> -->
           <h3>uma seleção de produtos</h3>
           <h1>especial para você</h1>
           <h5>Todos os produtos desta lista foram selecionados a partir de sua navegação. Aproveite!</h5>
-            <div id="menu">
+            <div id="menu"> <!-- Contains all menu items -->
               <input id="BtnMenu" value="Conheça a Linx" type="button" onclick="">
               <input id="BtnMenu" value="Ajude o algorítimo" type="button" onclick="">
               <input id="BtnMenu" value="Seus produtos" type="button" onclick="">
               <input id="BtnMenu" value="Compartilhe" type="button" onclick="">
             </div>
         </div>
-        <!-- <div>
-            <button id="fetchProductDataBtn">Fetch Product Data</button>
-        </div> -->
-        <div id="products">
+        <div id="products"> <!-- This div constains all Products seen -->
           <p id="centerText">Sua seleção especial</p>
-          <div id="response">
+          <div id="response"> <!-- Here is where the generatecards() returns its data from JS -->
             <script>
               generateCards(); //this function creates the product cards seen on the page
               // getData(); //at this time, the api wasnt yet implemented, so there is only the templates
             </script>
           </div>
-          <input id="BtnAction" value="Ainda mais produtos aqui!" type="button" onclick="generateCards()">
+          <input id="BtnAction" value="Ainda mais produtos aqui!" type="button" onclick="generateCards()"> <!-- Button that runs the generateCards() script -->
         </div>
-        <div id="newsletter">
+        <div id="newsletter"> <!-- Newsletter section of the page -->
           <h4>Compartilhe a novidade</h4>
           <h5>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</h5>
-          <form>
+          <form><!-- Form and input fields -->
               <div id="inputCombo">
                 <label>Nome do seu amigo:</label><br/>
-                <input id="inputField" type="nome" required />
+                <input id="inputFieldName" type="name" required />
               </div>
               <div id="inputCombo">
               <label>E-mail:</label><br/>
-              <input id="inputField" type="email" required />
+              <input id="inputFieldEmail" type="email" required />
             </div>
             <br>
             <input id="BtnForm" type="submit" value="Enviar agora">
           </form>
         </div>
-        <div id ="footer">
+        <div id ="footer"> <!-- Footer of the page -->
           <p id="footerText">Testando suas habilidades em HTML, CSS e JS.<br>Linx Impulse<br>2020</p>
         </div>
   </div>
