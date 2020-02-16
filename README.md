@@ -10,12 +10,15 @@ Live demo: https://challenge.mynxx.tk/
 
 #### Instruções para execução:
 
-- Git clone em qualquer webserver. Testado por meio de Live Server(VSCode) e Apache (Live demo).
+- Git clone em qualquer webserver. Testado por meio de Live Server (VSCode) e Apache (Live demo).
 
 ------------
 
 #### Contato
 - Caso houver qualquer duvida com relação a este repositório, seu código ou implementação, encaminhar para eduardocn1999@gmail.com.
+
+
+------------
 
 
 ### Commit log
@@ -25,10 +28,14 @@ Live demo: https://challenge.mynxx.tk/
 - Basic file and directory structure created.
 
 ##### Second commit: 13/02/2020:
-- Wireframe for template built;
+- HTML Wireframe for template built;
 - Experimental generateCard function added;
 - Early CSS rules implemented.
 
 ##### Third commit: 15/02/2020:
-- Mostly finished page in HTML/CSS; lacks API implementation, however the generateCards function works perfectly.
+- Mostly finished page in HTML/CSS; lacks API implementation, however the generateCards function works perfectly;
 - Added a few comments to the code. Will continue to add them for the next commit.
+
+##### Fourth commit: 16/02/2020:
+- Finished HTML/CSS files;
+- API was not implemented due to lack of documentation. Using the fetch() method and other options returned null, blank or undefined values. Therefore, the data requested could not be acessed.
