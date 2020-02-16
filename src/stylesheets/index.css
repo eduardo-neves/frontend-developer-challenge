@@ -1,5 +1,5 @@
 
-/* Id selectors */
+/* Id selector rules */
 #root{
     font-family: 'Helvetica', 'Arial', sans-serif;
     top: 0px;
@@ -124,7 +124,7 @@
     display: inline-block;
 }
 
-#inputField{
+#inputFieldName, #inputFieldEmail{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     color: #707070;
     font-size: 16px;
